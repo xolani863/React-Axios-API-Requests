@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'semantic-ui-react';
 import axios from 'axios';
-// import { useHistory } from 'react-router';
+import { useHistory } from 'react-router';
 
 export default function Create() {
-//   let history = useHistory();
+  let history = useHistory();
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
 
